@@ -1,8 +1,8 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <Profiles>
   <Profile>
     <Name>helmerzNL</Name>
-    <Description>Docker templates by helmerzNL — including DiscVault, a self-hosted physical disc collection manager.</Description>
+    <Description>Docker templates by helmerzNL - including DiscVault, a self-hosted physical disc collection manager.</Description>
     <Repository>helmerzNL/unraid-templates</Repository>
     <Repository2/>
     <Repository3/>
