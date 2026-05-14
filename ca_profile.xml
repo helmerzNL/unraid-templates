@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<Profiles>
+  <Profile>
+    <Name>helmerzNL</Name>
+    <Description>Docker templates by helmerzNL — including DiscVault, a self-hosted physical disc collection manager.</Description>
+    <Repository>helmerzNL/unraid-templates</Repository>
+    <Repository2/>
+    <Repository3/>
+    <Repository4/>
+    <Repository5/>
+    <PreferredName/>
+    <TemplateURL>https://raw.githubusercontent.com/helmerzNL/unraid-templates/main/</TemplateURL>
+    <IconURL>https://raw.githubusercontent.com/helmerzNL/DiscVault/main/app/frontend/favicon-192.png</IconURL>
+    <Community/>
+    <Forum>https://forums.unraid.net/topic/198808-support-discvault-physical-disc-collection-manager/</Forum>
+    <Donate/>
+  </Profile>
+</Profiles>
