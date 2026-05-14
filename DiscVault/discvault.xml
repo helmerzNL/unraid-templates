@@ -22,9 +22,9 @@
   <Requires/>
 
   <Config Name="Web UI Port" Target="80" Default="6080" Mode="tcp" Description="DiscVault web interface" Type="Port" Display="always" Required="true" Mask="false">6080</Config>
-  <Config Name="MCP Port (optional direct access)" Target="6090" Default="6090" Mode="tcp" Description="Optional direct MCP service port. MCP is also available via /mcp on the Web UI port." Type="Port" Display="advanced" Required="false" Mask="false">6090</Config>
+  <Config Name="MCP Port" Target="6090" Default="6090" Mode="tcp" Description="Direct MCP service port for AI/automation integrations." Type="Port" Display="advanced" Required="false" Mask="false">6090</Config>
 
-  <Config Name="Data Path" Target="/data" Default="/mnt/user/appdata/discvault" Mode="rw" Description="Persistent data path (database, posters, profiles, backups)." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/discvault</Config>
+  <Config Name="Data Path" Target="/data" Default="/mnt/user/appdata/discvault" Mode="rw" Description="Persistent data path (database, posters, profiles, avatars, backups)." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/discvault</Config>
 
   <Config Name="Timezone" Target="TZ" Default="Europe/Amsterdam" Mode="" Description="Container timezone." Type="Variable" Display="always" Required="true" Mask="false">Europe/Amsterdam</Config>
   <Config Name="OMDb API Key" Target="OMDB_API_KEY" Default="" Mode="" Description="Optional OMDb API key for metadata lookup." Type="Variable" Display="always" Required="false" Mask="false"></Config>
