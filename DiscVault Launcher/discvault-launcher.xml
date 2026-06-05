@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>DiscVault</Name>
+  <Name>DiscVault 26</Name>
   <Repository>ghcr.io/helmerznl/discvault-launcher:latest</Repository>
   <Registry>https://ghcr.io</Registry>
   <Network>bridge</Network>
