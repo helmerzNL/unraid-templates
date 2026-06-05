@@ -10,7 +10,7 @@
   <Support>https://forums.unraid.net/topic/198808-support-discvault-physical-disc-collection-manager/</Support>
   <Project>https://github.com/helmerzNL/DiscVault-Launcher</Project>
   <Overview>DiscVault launcher for Unraid Community Apps. It installs, updates, and manages the PostgreSQL-backed DiscVault 26 stack through Docker Compose while reusing the existing DiscVault appdata directory for migration. The launcher channel selects the DiscVault stack channel automatically when DISCVAULT_IMAGE is set to auto: launcher:dev starts discvault:dev, launcher:v26-beta starts discvault:v26-beta, and launcher:v26 starts discvault:v26. The launcher:latest channel starts the legacy single-container app.</Overview>
-  <Category>Tools:</Category>
+  <Category>MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <Icon>https://raw.githubusercontent.com/helmerzNL/DiscVault/main/app/frontend/favicon-192.png</Icon>
   <ExtraParams/>
