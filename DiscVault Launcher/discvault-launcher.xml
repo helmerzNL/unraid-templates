@@ -23,7 +23,7 @@
 
   <Config Name="Web UI Port" Target="80" Default="6080" Mode="tcp" Description="DiscVault web interface. The launcher proxies this port to the DiscVault Next API/UI." Type="Port" Display="always" Required="true" Mask="false">6080</Config>
 
-  <Config Name="Data Path" Target="/data" Default="/mnt/user/appdata/discvault/data" Mode="rw" Description="Existing DiscVault beta appdata path. Kept for compatibility with the current beta container template." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/discvault</Config>
+  <Config Name="Data Path" Target="/data" Default="/mnt/user/appdata/discvault/data" Mode="rw" Description="Existing DiscVault beta appdata path. Kept for compatibility with the current beta container template." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/discvault/data</Config>
   <Config Name="Launcher Config Path" Target="/config" Default="/mnt/user/appdata/discvault-26-prod-launcher" Mode="rw" Description="Launcher state, generated Compose file, generated secrets, and stack update state." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/discvault-26-prod-launcher</Config>
   <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Required so the launcher can create and update the DiscVault stack containers." Type="Path" Display="advanced" Required="true" Mask="false">/var/run/docker.sock</Config>
 
